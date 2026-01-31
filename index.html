@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Florian AI Life Mentor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- GOOGLE ADSENSE (BADILISHA ID BAADA YA KUKUBALIWA) -->
+  <script async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+    crossorigin="anonymous"></script>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #020617, #020024);
+      color: #e5e7eb;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      font-size: 38px;
+      color: #38bdf8;
+    }
+
+    header p {
+      font-size: 18px;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: #020617;
+      border-radius: 14px;
+      padding: 25px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 20px rgba(56,189,248,0.15);
+    }
+
+    .card h2 {
+      color: #22c55e;
+    }
+
+    button {
+      padding: 14px 26px;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      margin: 8px;
+    }
+
+    .btn-main { background: #38bdf8; color: #020617; }
+    .btn-pay { background: #60a5fa; }
+    .btn-mobile { background: #22c55e; color: #022c22; }
+    .btn-coffee { background: #facc15; color: #422006; }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 14px;
+      opacity: 0.8;
+    }
+
+    a { color: #38bdf8; text-decoration: none; }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Florian AI Life Mentor</h1>
+  <p>High-Level Guidance • Motivation • Paid Mentorship 🌍</p>
+</header>
+
+<div class="container">
+
+  <!-- AD UNIT 1 -->
+  <div class="card">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+         data-ad-slot="1234567890"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+  <div class="card">
+    <h2>AI Daily Advice</h2>
+    <p>Pata ushauri wa maisha kwa kiwango cha juu.</p>
+    <button class="btn-main" onclick="toaUshauri()">Get Advice</button>
+    <p id="advice"></p>
+  </div>
+
+  <div class="card">
+    <h2>Premium Paid Services</h2>
+    <ul>
+      <li>✔ Personal Mentorship</li>
+      <li>✔ Life Guidance</li>
+      <li>✔ One-on-One Support</li>
+    </ul>
+
+    <button class="btn-mobile" onclick="mobilePay()">Tanzania Mobile Money</button>
+    <button class="btn-pay" onclick="paypal()">PayPal</button>
+    <button class="btn-coffee" onclick="coffee()">Buy Me a Coffee</button>
+  </div>
+
+  <!-- AD UNIT 2 -->
+  <div class="card">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+         data-ad-slot="9876543210"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+</div>
+
+<footer>
+  <p>
+    <a href="privacy.html">Privacy Policy</a> •
+    <a href="contact.html">Contact Us</a>
+  </p>
+  <p>© 2026 Florian AI Life Mentor</p>
+</footer>
+
+<script>
+  const ushauri = [
+    "Usikate tamaa, mwanzo huwa mgumu.",
+    "Jifunze kila siku hata kidogo.",
+    "Ujuzi ni mali isiyopotea.",
+    "Anza kabla hujajisikia tayari."
+  ];
+
+  function toaUshauri() {
+    document.getElementById("advice").innerText =
+      ushauri[Math.floor(Math.random() * ushauri.length)];
+  }
+
+  function mobilePay() {
+    alert("Lipa kupitia M-Pesa / Airtel Money / Tigo Pesa");
+  }
+
+  function paypal() {
+    window.open("https://paypal.me/USERNAME_YAKO", "_blank");
+  }
+
+  function coffee() {
+    window.open("https://www.buymeacoffee.com/USERNAME_YAKO", "_blank");
+  }
+</script>
+
+</body>
+</html>
